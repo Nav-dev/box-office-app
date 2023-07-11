@@ -7,6 +7,7 @@ const ShowCard = ({name, image, id, summary}) =>{
 
     return(
         <div>
+
             <div>
             <img src={image} alt={name} />
             </div>
@@ -14,7 +15,7 @@ const ShowCard = ({name, image, id, summary}) =>{
             <p>{summaryStripped}</p>
 
             <div>
-                <Link to="/">Read more</Link>
+                <Link to={`/show/${id}`}>Read more</Link>
                 <button type="button">Star me</button>
             </div>
         </div>

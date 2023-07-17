@@ -6,7 +6,7 @@ import ShowMainData from '../components/shows/ShowMainData';
 import Details from '../components/shows/Details';
 import Seasons from '../components/shows/Seasons';
 import Cast from '../components/shows/Cast';
-import { TextCenter } from '../components/commom/TextCenter';
+import { TextCenter } from '../components/common/TextCenter';
 
 const Show = () => {
     const { showId } = useParams();

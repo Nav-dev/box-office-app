@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { StarIcon } from '../commom/StarIcon';
+import { StarIcon } from '../common/StarIcon';
 
 const ShowMainData = ({ image, name, rating, summary, genres }) => {
     return(
